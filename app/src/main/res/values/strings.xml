@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MAD1</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="tName">NAME</string>
+    <string name="tAdd">ADDRESS</string>
+    <string name="tNum">CONTACT NUMBER</string>
+    <string name="tCar">VEHICLE TYPE</string>
+    <string name="tPlate">NUMBER PLATE</string>
+    <string name="sName">NAME</string>
+    <string name="sDescription">DESCRIPTION</string>
+    <string name="users">Total Users</string>
+    <string name="nikita">NIKITA FERNANO</string>
+    <string name="sign">Signs</string>
+    <string name="tip">Driving Tips</string>
+    <string name="vehicle">Vehicle</string>
+
+
+</resources>
