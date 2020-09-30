@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "12209794130-n80pn8v3cah2a214tacb9ajmt2n25pc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication.drivago",
+            "certificate_hash": "e79b3cc0928f690a982c8e7d673cfd8e22c99853"
+          }
+        },
+        {
           "client_id": "12209794130-god69p6ku3fqo25vqvcuu019afhts0j6.apps.googleusercontent.com",
           "client_type": 3
         }
