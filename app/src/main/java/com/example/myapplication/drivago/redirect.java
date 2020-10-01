@@ -44,7 +44,14 @@ public class redirect extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, android.view.View view, int i, long l) {
                 switch (i) {
                     case 0:
-
+                        Button ok2 = (Button) findViewById(R.id.ok);
+                        ok2.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Intent i = new Intent(redirect.this, stdDetails.class);
+                                startActivity(i);
+                            }
+                        });
                         break;
                     case 1:
                         Button ok = (Button) findViewById(R.id.ok);

@@ -29,5 +29,22 @@
     <string name="enterquestiontitle">Enter question Title</string>
     <string name="new_note">new note</string>
     <string name="_250">250</string>
+    <string name="DRIVAGO">DRIVAGO</string>
+    <string name="student_details">STUDENT DETAILS</string>
+    <string name="id">Student ID</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="Telephone_No">Telephone No</string>
+    <string name="vehical">Vehical</string>
+    <string name="addStudent">Add</string>
+    <string name="Delete">DELETE</string>
+    <string name="retrive">RETRIVE</string>
+    <string name="display">Display</string>
+    <string name="update">UPDATE</string>
+    <string name="stdprofiule">STUDENT PROFILE</string>
+    <string name="nic">National ID</string>
+    <string name="Note">NOTE: To Add,Update and delete data, You want to enter your NIC</string>
+    <string name="note1" />
+    <string name="note2">NOTE: ADD NIC TO DISPLAY DATA</string>
 
 </resources>
