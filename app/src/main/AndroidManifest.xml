@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tipAdd"></activity>
+        <activity android:name=".redirect"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".tipAdd" />
         <activity android:name=".tip" />
         <activity android:name=".category" />
         <activity android:name=".vehi_add" />
@@ -21,16 +23,14 @@
         <activity android:name=".teacherN" />
         <activity android:name=".addTeacher" />
         <activity android:name=".Home" />
-        <activity android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".settings" />
         <activity android:name=".Question" />
-        <activity android:name=".TeacherHome" />
-        <!--IT19047102 Sivashankar-->
+        <activity android:name=".TeacherHome" /> <!-- IT19047102 Sivashankar -->
         <activity
-            android:name=".HomeActivity"
+            android:name=".splash"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -39,7 +39,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
