@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".redirect"></activity>
+        <activity android:name=".studentHome"></activity>
+        <activity android:name=".redirect" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".tipAdd" />
         <activity android:name=".tip" />
@@ -27,11 +28,11 @@
         <activity android:name=".Available" />
         <activity android:name=".Addnewcard" />
         <activity android:name=".Card" />
-        <activity android:name=".HomeActivityLearners"/>
-        <activity android:name=".DashboardActivityLearners"></activity>
+        <activity android:name=".HomeActivityLearners" />
+        <activity android:name=".DashboardActivityLearners" />
         <activity android:name=".LoginActivityLearners" />
         <activity android:name=".signupLearners" />
-        <activity android:name=".paymentMain"/>
+        <activity android:name=".paymentMain" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

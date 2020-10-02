@@ -15,88 +15,49 @@ public class redirect extends AppCompatActivity {
     private Spinner spinner;
     private static final String[] paths = {"choose", "Teacher", "Admin" , "thushan" , "none"};
     RadioButton rdo;
-
+    Button teacher , student, admin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_redirect);
 
 
-        rdo = findViewById(R.id.radioButton);
-        rdo.setOnClickListener(new View.OnClickListener() {
+
+        student = findViewById(R.id.red_student);
+        student.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(redirect.this, paymentMain.class);
+//                Button start;
+//                start = findViewById(R.id.getStarted);
+
+//                start.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+                        Intent i =new Intent(redirect.this , HomeActivityLearners.class);
+                        startActivity(i);
+                    }
+                });
+
+
+        teacher = findViewById(R.id.red_teacher);
+        teacher.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent (redirect.this, HomeActivity.class);
                 startActivity(i);
             }
         });
 
-        spinner = (Spinner) findViewById(R.id.spinner);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(redirect.this,
-                android.R.layout.simple_list_item_1, paths);
-
-
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
+        admin = findViewById(R.id.red_admin);
+        admin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> adapterView, android.view.View view, int i, long l) {
-                switch (i) {
-                    case 0:
-                        Button ok2 = (Button) findViewById(R.id.ok);
-                        ok2.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                Intent i = new Intent(redirect.this, stdDetails.class);
-                                startActivity(i);
-                            }
-                        });
-                        break;
-                    case 1:
-                        Button ok = (Button) findViewById(R.id.ok);
-                        ok.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                Intent i = new Intent(redirect.this, HomeActivity.class);
-                                startActivity(i);
-                            }
-                        });
-                        break;
-                    case 2:
-                        Button ok1 = (Button) findViewById(R.id.ok);
-                        ok1.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                Intent i = new Intent(redirect.this, MainActivity.class);
-                                startActivity(i);
-                            }
-                        });
-                        break;
-
-                    case 3:
-                        Button ok3 = (Button) findViewById(R.id.ok);
-                        ok3.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                Intent i = new Intent(redirect.this, HomeActivityLearners.class);
-                                startActivity(i);
-                            }
-                        });
-                        break;
-
-                    case 4:
-
-                        break;
-
-                }
+            public void onClick(View view) {
+                Intent i = new Intent (redirect.this, MainActivity.class);
+                startActivity(i);
             }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-
-            }
-
         });
+            }
+        //});
+
+
     }
-}

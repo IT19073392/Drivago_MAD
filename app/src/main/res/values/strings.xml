@@ -67,5 +67,8 @@
     <string name="Heavylearners">Heavy vehicle</string>
     <string name="nolearners">License No</string>
     <string name="validlearners">Expiry date</string>
+    <string name="stu">Learner</string>
+    <string name="tea"> Teacher</string>
+    <string name="admin">Admin</string>
 
 </resources>

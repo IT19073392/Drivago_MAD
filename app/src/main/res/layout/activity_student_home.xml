@@ -4,102 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".redirect">
+    tools:context=".studentHome">
 
-
-
-    <Button
-        android:id="@+id/getStarted"
-        android:layout_width="180dp"
+    <ImageButton
+        android:id="@+id/student_sign"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/lowerbutton"
-        android:fontFamily="@font/poppins_semibold"
-        android:text="Get Started"
-        android:textColor="@android:color/white"
-        android:textSize="17sp"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963" />
+        app:layout_constraintVertical_bias="0.293"
+        app:srcCompat="@drawable/signs" />
 
-
+    <ImageButton
+        android:id="@+id/student_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647"
+        app:srcCompat="@drawable/questionss" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="578dp"
-        android:layout_height="378dp"
-        android:layout_marginBottom="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/toper" />
-
-    <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imageView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518"
-        app:srcCompat="@drawable/welcome" />
+        app:layout_constraintVertical_bias="0.953"
+        app:srcCompat="@drawable/d" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey:)"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="49sp"
+        android:textColor="#0B0F46"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
 
     <Button
-        android:id="@+id/red_student"
+        android:id="@+id/student_regis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/buttonbox"
-        android:fontFamily="@font/poppins_semibold"
-        android:text="@string/stu"
+        android:background="@drawable/regissss"
+        android:text="Registration"
         android:textAllCaps="false"
-        android:textSize="18sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#0B0F46"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647" />
+        app:layout_constraintVertical_bias="0.863" />
+
 
     <Button
-        android:id="@+id/red_teacher"
+        android:id="@+id/student_pay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-
-        android:background="@drawable/buttonbox"
+        android:background="@drawable/regissss"
         android:fontFamily="@font/poppins_semibold"
-        android:text="@string/tea"
+        android:text="Payment"
         android:textAllCaps="false"
-        android:textSize="18sp"
+        android:textColor="#0B0F46"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.739" />
-
-    <Button
-        android:id="@+id/red_admin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/buttonbox"
-        android:fontFamily="@font/poppins_semibold"
-        android:text="@string/admin"
-        android:textAllCaps="false"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842" />
+        app:layout_constraintVertical_bias="0.949" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

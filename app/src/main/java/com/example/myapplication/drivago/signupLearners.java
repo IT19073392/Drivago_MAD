@@ -109,7 +109,7 @@ public class signupLearners extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(signupLearners.this,"Successfully registered",Toast.LENGTH_LONG).show();
-                    Intent intent=new Intent(signupLearners.this, DashboardActivityLearners.class);
+                    Intent intent=new Intent(signupLearners.this, studentHome.class);
                     startActivity(intent);
                     finish();
                 }

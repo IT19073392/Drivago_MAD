@@ -60,7 +60,7 @@ public class LoginActivityLearners extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(LoginActivityLearners.this,"Login Successfully",Toast.LENGTH_LONG).show();
-                    Intent intent=new Intent(LoginActivityLearners.this, DashboardActivityLearners.class);
+                    Intent intent=new Intent(LoginActivityLearners.this, studentHome.class);
                     startActivity(intent);
                     finish();
                 }
