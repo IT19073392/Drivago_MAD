@@ -7,26 +7,33 @@
     android:background="@android:color/background_light"
     android:orientation="vertical"
     tools:context=".stdDetails">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+
+        app:srcCompat="@drawable/rounded_circle"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-60dp"
+        tools:layout_editor_absoluteY="-1dp" />
 
     <TextView
         android:id="@+id/textViewstu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:text="@string/DRIVAGO"
+        android:layout_marginTop="-140dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/details"
         android:textAlignment="center"
         android:textSize="36sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView2stu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/student_details"
-        android:textAlignment="center"
-        android:textSize="24sp" />
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -39,6 +46,8 @@
             android:text="@string/nic"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/poppins_semibold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.144"
@@ -51,6 +60,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/poppins_semibold"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -65,6 +76,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/address"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/poppins_semibold"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -78,6 +91,8 @@
             android:id="@+id/txt_id4stu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/poppins_semibold"
             android:text="@string/Telephone_No"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -92,6 +107,8 @@
             android:id="@+id/txt_id5stu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/poppins_semibold"
             android:text="@string/vehical"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -106,6 +123,8 @@
             android:id="@+id/et_idstu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/poppins_semibold"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"

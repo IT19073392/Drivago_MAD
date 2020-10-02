@@ -15,23 +15,19 @@
         android:padding="15sp">
 
 
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@mipmap/ic_launcher"
-            android:layout_centerVertical="true"
-            android:id="@+id/img1"/>
+
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:id="@+id/nametext"
             android:fontFamily="@font/poppins"
             android:textSize="20sp"
             android:textColor="@android:color/black"
             android:layout_toRightOf="@+id/img1"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -42,7 +38,7 @@
             android:textColor="@android:color/black"
             android:textSize="17sp"
             android:layout_toRightOf="@+id/img1"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:layout_below="@id/nametext"/>
 
         <TextView
@@ -55,7 +51,7 @@
             android:textColor="@android:color/black"
             android:layout_toRightOf="@+id/img1"
             android:layout_below="@id/contact"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,7 +62,7 @@
             android:textColor="@android:color/black"
             android:layout_toRightOf="@+id/img1"
             android:layout_below="@id/noplate"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="20dp"/>
 
         <Button
             android:id="@+id/btnDelete"

@@ -70,5 +70,6 @@
     <string name="stu">Learner</string>
     <string name="tea"> Teacher</string>
     <string name="admin">Admin</string>
+    <string name="details">Student Details</string>
 
 </resources>
