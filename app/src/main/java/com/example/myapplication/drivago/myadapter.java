@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
-public class myadapter extends FirebaseRecyclerAdapter<model,myadapter.myviewholder> {
+public class  myadapter extends FirebaseRecyclerAdapter<model,myadapter.myviewholder> {
 
 
     public myadapter(@NonNull FirebaseRecyclerOptions<model> options) {
