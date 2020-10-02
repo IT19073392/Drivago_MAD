@@ -24,6 +24,14 @@
         <activity android:name=".teacherN" />
         <activity android:name=".addTeacher" />
         <activity android:name=".Home" />
+        <activity android:name=".Available" />
+        <activity android:name=".Addnewcard" />
+        <activity android:name=".Card" />
+        <activity android:name=".HomeActivityLearners"/>
+        <activity android:name=".DashboardActivityLearners"></activity>
+        <activity android:name=".LoginActivityLearners" />
+        <activity android:name=".signupLearners" />
+        <activity android:name=".paymentMain"/>
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

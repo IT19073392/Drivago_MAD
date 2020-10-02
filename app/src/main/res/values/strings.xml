@@ -46,5 +46,26 @@
     <string name="Note">NOTE: To Add,Update and delete data, You want to enter your NIC</string>
     <string name="note1" />
     <string name="note2">NOTE: ADD NIC TO DISPLAY DATA</string>
+    <string name="method1">Card</string>
+    <string name="method2">Cash</string>
+    <string name="history">View history</string>
+    <string name="namepay">Name on card</string>
+    <string name="No">Card number</string>
+    <string name="validdate">Expiry date</string>
+    <string name="cvv">CVV</string>
+    <string name="card">Choose card</string>
+    <string name="save">Save changes</string>
+    <string name="addpay">Add new card</string>
+    <string name="deletepay">Delete card</string>
+    <string name="emaillearners">Email</string>
+    <string name="passwordlearners">Password</string>
+    <string name="signinlearners">Sign in</string>
+    <string name="signuplearners">Sign up</string>
+    <string name="namelearners">Name</string>
+    <string name="reenterlearners">Re-enter password</string>
+    <string name="Lightlearners">Light vehicle</string>
+    <string name="Heavylearners">Heavy vehicle</string>
+    <string name="nolearners">License No</string>
+    <string name="validlearners">Expiry date</string>
 
 </resources>

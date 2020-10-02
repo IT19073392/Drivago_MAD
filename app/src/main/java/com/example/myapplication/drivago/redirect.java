@@ -13,7 +13,7 @@ import android.widget.Spinner;
 
 public class redirect extends AppCompatActivity {
     private Spinner spinner;
-    private static final String[] paths = {"choose", "Teacher", "Admin"};
+    private static final String[] paths = {"choose", "Teacher", "Admin" , "thushan" , "none"};
     RadioButton rdo;
 
     @Override
@@ -26,7 +26,7 @@ public class redirect extends AppCompatActivity {
         rdo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(redirect.this, MainActivity.class);
+                Intent i = new Intent(redirect.this, paymentMain.class);
                 startActivity(i);
             }
         });
@@ -73,6 +73,22 @@ public class redirect extends AppCompatActivity {
                             }
                         });
                         break;
+
+                    case 3:
+                        Button ok3 = (Button) findViewById(R.id.ok);
+                        ok3.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Intent i = new Intent(redirect.this, HomeActivityLearners.class);
+                                startActivity(i);
+                            }
+                        });
+                        break;
+
+                    case 4:
+
+                        break;
+
                 }
             }
 
