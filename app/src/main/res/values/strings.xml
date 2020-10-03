@@ -53,7 +53,7 @@
     <string name="No">Card number</string>
     <string name="validdate">Expiry date</string>
     <string name="cvv">CVV</string>
-    <string name="card">Choose card</string>
+    <string name="card">Show card</string>
     <string name="save">Save changes</string>
     <string name="addpay">Add new card</string>
     <string name="deletepay">Delete card</string>
