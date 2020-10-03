@@ -282,7 +282,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="200"
+                        android:hint="200"
                         android:textAlignment="center"
                         android:id="@+id/users"
 

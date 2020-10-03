@@ -11,11 +11,17 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.drivago.R;
+import com.example.myapplication.drivago.modelSign;
 import com.example.myapplication.drivago.models.Question;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 import java.util.List;
 
 public class  QuestionAdapter extends RecyclerView.Adapter<QuestionAdapter.ViewHolder> {
+
+//    public QuestionAdapter(@NonNull FirebaseRecyclerOptions<com.example.myapplication.drivago.models.Question> options) {
+//        super(options);
+//    }
 
     private Context context;
     private List<Question> list;

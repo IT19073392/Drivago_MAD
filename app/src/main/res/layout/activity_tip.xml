@@ -20,11 +20,11 @@
         tools:layout_editor_absoluteY="-1dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/ques"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_bold"
-        android:text="@string/tip"
+        android:text="Questions"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -48,20 +48,21 @@
         android:background="@android:color/transparent"/>
 
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="250dp"
+        android:id="@+id/recycleQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
 
-    <ImageButton
-        android:id="@+id/addTip"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_marginTop="150dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125"
-        app:srcCompat="@drawable/add_tea" />
+        app:layout_constraintTop_toBottomOf="@+id/addTeacher"
+        app:layout_constraintVertical_bias="0.82" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

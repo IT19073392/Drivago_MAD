@@ -47,7 +47,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087" />
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/ques"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_bold"

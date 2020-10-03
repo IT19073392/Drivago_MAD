@@ -32,7 +32,7 @@
 
          DatabaseReference mDatabaseRef = FirebaseDatabase.getInstance().getReference();
          //signs is used temporarily
-         mDatabaseRef.child("Signs").addListenerForSingleValueEvent(new ValueEventListener() {
+         mDatabaseRef.child("Users").addListenerForSingleValueEvent(new ValueEventListener() {
              @Override
              public void onDataChange(DataSnapshot dataSnapshot) {
                  long count= dataSnapshot.getChildrenCount();

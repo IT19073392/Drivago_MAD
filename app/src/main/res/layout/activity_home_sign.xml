@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -21,39 +21,38 @@
       tools:layout_editor_absoluteX="-60dp"
       tools:layout_editor_absoluteY="-1dp" />
 
+
   <TextView
-      android:id="@+id/textView"
+      android:id="@+id/ques"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+
+      android:layout_marginTop="80dp"
       android:fontFamily="@font/quicksand_bold"
       android:text="@string/sign"
       android:textAlignment="center"
       android:textColor="#FFFFFF"
       android:textSize="30sp"
-      android:layout_marginTop="80dp"
-      android:layout_marginLeft="170dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.105" />
+      app:layout_constraintVertical_bias="0.004" />
 
   <ImageButton
       android:id="@+id/teacherback"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="30dp"
       android:layout_marginLeft="30dp"
+      android:layout_marginTop="30dp"
+      android:background="@android:color/transparent"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.07"
+      app:layout_constraintHorizontal_bias="0.04"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.043"
-      app:srcCompat="@drawable/back_white"
-      android:background="@android:color/transparent"/>
-
-
+      app:layout_constraintVertical_bias="0.042"
+      app:srcCompat="@drawable/back_white" />
 
   <androidx.recyclerview.widget.RecyclerView
       android:layout_marginTop="250dp"
@@ -71,4 +70,4 @@
       app:layout_constraintTop_toBottomOf="@+id/addTeacher"
       app:layout_constraintVertical_bias="0.82" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
