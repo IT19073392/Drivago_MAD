@@ -1,5 +1,6 @@
 package com.example.myapplication.drivago;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,6 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplication.drivago.models.Cal;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
@@ -22,7 +24,7 @@ import java.util.HashMap;
 public class stdDetails extends AppCompatActivity {
 
     EditText etid,etname,etaddress,ettel,etvehical;
-    Button btnadd,btndelete,btnupdate,btndisplay;
+    Button btnadd,btndelete,btnupdate,btndisplay,btnNext;
 
     FirebaseDatabase database;
     DatabaseReference myRef;
@@ -44,7 +46,17 @@ public class stdDetails extends AppCompatActivity {
         btndelete=findViewById(R.id.btndeletestu);
         btnupdate=findViewById(R.id.btnupdatestu);
         btndisplay=findViewById(R.id.btndisplaystu);
+        btnNext = findViewById(R.id.next);
         addData();
+
+
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(stdDetails.this, Cal.class);
+                startActivity(i);
+            }
+        });
         btndisplay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

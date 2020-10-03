@@ -71,5 +71,16 @@
     <string name="tea"> Teacher</string>
     <string name="admin">Admin</string>
     <string name="details">Student Details</string>
+    <string name="testcal">Calculate your Fee</string>
+    <string name="next">NEXT</string>
+    <string name="age_cat">Age catagary</string>
+    <string name="age_30">Age is grater than 30 =$2000</string>
+    <string name="ageless30">Age less than 30=$1000</string>
+    <string name="feecal">Fee Calculator</string>
+    <string name="vehical_cal">Vehical fee</string>
+    <string name="carfee">Car=$100</string>
+    <string name="busfee">Bus=$200</string>
+    <string name="bikefee">Bike=$50</string>
+    <string name="tot">$</string>
 
 </resources>
