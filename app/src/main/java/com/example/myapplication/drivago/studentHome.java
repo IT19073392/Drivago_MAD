@@ -21,6 +21,8 @@ Button regis , pay;
         sign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent i = new Intent(studentHome.this , HomeSign.class);
+                startActivity(i);
 
             }
         });

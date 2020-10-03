@@ -15,7 +15,7 @@ import com.example.myapplication.drivago.models.Question;
 
 import java.util.List;
 
-public class QuestionAdapter extends RecyclerView.Adapter<QuestionAdapter.ViewHolder> {
+public class  QuestionAdapter extends RecyclerView.Adapter<QuestionAdapter.ViewHolder> {
 
     private Context context;
     private List<Question> list;
