@@ -58,6 +58,9 @@
             android:layout_alignEnd="@+id/cardno"
             android:layout_alignRight="@+id/cardno"
             android:layout_alignParentTop="true"
+            android:backgroundTint="#0B0F46"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins_semibold"
 
 
             android:layout_marginTop="45dp"
