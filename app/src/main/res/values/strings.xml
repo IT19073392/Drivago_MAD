@@ -55,7 +55,7 @@
     <string name="cvv">CVV</string>
     <string name="card">Show card</string>
     <string name="save">Save changes</string>
-    <string name="addpay">Add new card</string>
+    <string name="addpay">Add card</string>
     <string name="deletepay">Delete card</string>
     <string name="emaillearners">Email</string>
     <string name="passwordlearners">Password</string>

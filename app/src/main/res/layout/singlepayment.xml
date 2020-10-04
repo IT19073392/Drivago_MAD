@@ -68,7 +68,7 @@
             android:layout_marginRight="30dp"
             android:layout_marginBottom="15dp"
             android:background="@drawable/button"
-            android:text="Delete"
+            android:text="@string/Delete"
             tools:ignore="UnknownId" />
 
 
